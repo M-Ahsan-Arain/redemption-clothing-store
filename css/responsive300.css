@@ -1,0 +1,282 @@
+@import url(style.css);
+
+
+@media (min-width: 300px) and (max-width: 519px) {
+
+    .navigation a:before {
+        bottom: 5px;
+        content: '';
+        position: absolute;
+        right: 0;
+        left: 1px;
+        width: 1px;
+        height: 69%;
+        background: #000;
+        transform: rotate(-35deg);
+    }
+
+    .nav-search {
+        justify-content: start;
+    }
+
+    ul.navbar-nav {
+        gap: 0px;
+    }
+
+    .navigation li:last-child a:before {
+        content: '';
+        /* Ensures only the last link has no backslash */
+    }
+
+    .s-2 {
+        margin: 50px auto;
+    }
+
+    .s-2-p {
+        font-size: 15px;
+    }
+
+    .s-3-h-2 {
+        font-size: 7rem;
+        padding-left: 20px;
+    }
+
+    .star-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .empty-div {
+        position: relative;
+        width: 100%;
+        background-color: white;
+        border-top: 2px solid #a54f33;
+        top: 11px;
+        margin: 20px 0;
+    }
+
+
+    p.s-3-p {
+        text-align: center;
+    }
+
+    .s-3-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-3-code {
+        text-align: center;
+    }
+
+    .s-4-p {
+        font-size: 15px;
+    }
+
+    .star-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s-5 {
+        margin: 0px 0;
+    }
+
+    .prf-2 img {
+        margin-left: 22%;
+    }
+
+    .testi-slider.slick-initialized.slick-slider button.slick-prev.slick-arrow {
+        position: absolute;
+        background-color: #a62b00;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        left: 5px;
+    }
+
+    .testi-slider.slick-initialized.slick-slider button.slick-next.slick-arrow {
+        position: absolute;
+        background-color: #a62b00;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        right: 10px;
+    }
+
+
+    .testi-slider p {
+        font-size: 12px;
+    }
+
+    .s-6-form {
+        padding-left: 0;
+    }
+
+
+    .s-6 {
+        display: flex;
+        align-items: center;
+        height: 300px;
+        background-color: black;
+    }
+
+    .s-6-heading {
+        text-align: center;
+    }
+
+    img.s-6-img {
+        margin: auto 40%;
+    }
+
+
+    .s-6-form input {
+        position: relative;
+        padding: 6px 14px;
+        border: none;
+        border-radius: 20px;
+        width: 277px;
+        background-image: url(../assets/);
+    }
+
+
+    button.s-6-btn {
+        position: absolute;
+        bottom: 0px;
+        left: 215px;
+        padding: 6px 0;
+    }
+
+    .social-icons {
+        display: flex;
+    }
+
+    li.footer-mail a:before {
+        font-family: 'Font Awesome 6 Free';
+        content: '\f0e0';
+        font-weight: 600;
+        color: #a72b00;
+        padding-right: 5px;
+    }
+
+
+    .footer .payment-icons img {
+        width: 118px;
+        height: 20px;
+        margin: 0 5px;
+    }
+
+    .a-s-1-about {
+        padding: 10% 30%;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .a-s-2 {
+        text-align: center;
+        margin: 0px 0;
+    }
+
+    .a-s-1 {
+        object-fit: contain;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 27vh;
+    }
+
+    img.about-img {
+        width: 100%;
+    }
+
+
+    .a-s-1-login {
+        padding: 10% 20%;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .login-text {
+        text-align: center;
+    }
+
+    .a-s-1-contact {
+        padding: 10% 28%;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .touch-section {
+        margin: 0px 0;
+    }
+
+    .cu-form-p {
+        padding: 58px 0px;
+        margin: 0;
+        background-color: white;
+    }
+
+    input#cu-inp {
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 35px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+    .carousel {
+        display: block !important;
+        /* Force visibility */
+    }
+
+    .card {
+        width: 21rem;
+    }
+
+    form.s-6-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .submit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button.cu-btn {
+        margin: 0;
+    }
+
+    .touch-section {
+        text-align: center;
+    }
+
+    div#img-bg {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        padding: 19px;
+        border: none;
+        border-radius: 43px;
+    }
+
+    .login-text2 a {
+        color: #973416;
+        font-family: "Raleway", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+
+}
